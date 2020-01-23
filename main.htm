@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/lmao.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <title>Aeugh</title>
+        <style>
+            .def-cursor {
+                cursor: default;
+            }
+            .bg {
+                background-image: url("img/ocean.gif");
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+
+    <body>
+        <section class="hero is-fullheight bg">
+            <div class="container def-cursor" style="color: white; padding-bottom: -300px;">
+                <input type="text" class="def-cursor" id="cursorY" size="3" readonly>Y-position of the mouse cursor
+                <input type="text" class="def-cursor" id="pageHeight" size="3" readonly>Page height
+            </div>
+            <div class="hero-body">
+              <div class="container has-text-centered">
+                  <img src="img/fish.jpg">
+              </div>
+            </div>
+        </section>
+
+
+        <script src="main.js"></script>
+    </body>
+</html>
